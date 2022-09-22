@@ -162,6 +162,10 @@ h3 {
     margin: calc(1.5 * var(--base-height)) 0 var(--base-height) 0;
 }
 
+.long-list li {
+    margin-bottom: 1rem;
+}
+
 /** Icons **/
 
 .icon-before
