@@ -162,8 +162,12 @@ h3 {
     margin: calc(1.5 * var(--base-height)) 0 var(--base-height) 0;
 }
 
-.long-list li {
+.long-list > li {
     margin-bottom: 1rem;
+}
+
+.long-list p:last-of-type {
+    margin-bottom: 0;
 }
 
 /** Icons **/

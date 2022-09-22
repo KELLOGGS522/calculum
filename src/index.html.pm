@@ -6,7 +6,7 @@
     ◊h2{Club d’algorithmique compétitive universitaire de l’Université de Montréal}
 }
 
-Le club se réunit chaque semaine autour d’un nouveau ◊em{casse-tête informatique} qui fera appel à vos connaissances en algorithmique, en logique et en programmation.
+Le club se réunit chaque semaine autour de nouveaux ◊em{casse-têtes informatiques} qui feront appel à vos connaissances en algorithmique, en logique et en programmation.
 Outre le plaisir à les résoudre, ces casse-têtes offrent un entraînement aux compétitions de programmation (◊a[#:href "https://icpc.global"]{ICPC}, ◊a[#:href "https://csgames.org"]{CS Games}, ◊a[#:href "https://codingcompetitions.withgoogle.com/codejam"]{Code Jam}, ◊a[#:href "https://facebook.com/codingcompetitions/hacker-cup"]{Hacker Cup}, ◊a[#:href "https://adventofcode.com"]{Advent of Code}, ◊a[#:href "https://en.wikipedia.org/wiki/Category:Programming_contests"]{…}) et aux questions posées en entrevue par certaines grandes compagnies.
 Que vous soyez simple curieux, débutant ou déjà aguerri, soyez les bienvenus au Calculum!
 
