@@ -16,7 +16,7 @@
 ;; Build a site-local path to a page
 (provide local-url)
 (define (local-url page)
-  (string-trim (format "/~a" page) "/index.html" #:right? #t))
+  (string-trim (format "/~a" page) "index.html" #:right? #t))
 
 ;; Build a fully-qualified URL to a page
 (provide full-url)
