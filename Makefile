@@ -50,7 +50,8 @@ clean: ${RACOENV}/activate.sh
 
 local:
 	rsync --itemize-changes --archive --copy-links --checksum \
-	    --exclude=".*" --exclude="*.pm" --exclude "*.p" --exclude="compiled" \
+	    --exclude=".*" --exclude="*.pm" --exclude="*.p" --exclude="*.rkt" \
+	    --exclude="compiled" \
 	    ${SRC}/ ${LOCALPUB} \
 	    | grep --invert-match "^\." || true
 
