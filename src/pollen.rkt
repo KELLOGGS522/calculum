@@ -23,6 +23,20 @@
 (define (full-url page)
   (format "~a~a" site-root (local-url page)))
 
+;; Make an internal link
+(provide in-link)
+(define (in-link page . contents)
+  `(a ((href ,(local-url page)))
+      ,@contents))
+
+;; Make an external link
+(provide out-link)
+(define (out-link url . contents)
+  `(a ((href ,url)
+       (rel "noopener noreferrer")
+       (target "_blank"))
+      ,@contents))
+
 ; Posts
 
 ;; Get the list of posts starting from the most recent one

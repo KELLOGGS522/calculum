@@ -5,7 +5,7 @@
 ◊define-meta[date]{2022-09-15T17:30:00-04:00}
 ◊define-meta[summary]{Présentation de l’univers de la programmation compétitive et des activités futures du club d’algorithmique compétitive. Au local AA-3195. Durée 30 min.}
 
-◊a[#:href (local-url "")]{← Retour à l’accueil}
+◊in-link[""]{← Retour à l’accueil}
 
 ◊h1{◊post-title[]}
 
@@ -15,7 +15,7 @@ Certaines personnes dans l’assistance ont manifesté leur intérêt pour des w
 Un sondage a été lancé pour déterminer les horaires des réunions hebdomadaires. 
 
 ◊ul{
-    ◊li{◊a[#:href "https://rallly.co/p/Cydl6zchn0ys"]{Sondage horaire →}}
-    ◊li{◊a[#:href (local-url "files/2022-09-16-Presentation-Calculum.pdf")]{Transparents de la présentation →}}
-    ◊li{◊a[#:href "https://www.youtube.com/watch?v=RGFDMNLWMJA"]{Enregistrement de la présentation →}}
+    ◊li{◊out-link["https://rallly.co/p/Cydl6zchn0ys"]{Sondage horaire →}}
+    ◊li{◊in-link["files/2022-09-16-Presentation-Calculum.pdf"]{Transparents de la présentation →}}
+    ◊li{◊out-link["https://www.youtube.com/watch?v=RGFDMNLWMJA"]{Enregistrement de la présentation →}}
 }

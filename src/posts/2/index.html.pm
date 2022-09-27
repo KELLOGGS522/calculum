@@ -5,7 +5,7 @@
 ◊define-meta[date]{2022-09-22T17:30:00-04:00}
 ◊define-meta[summary]{Cette première rencontre a été l’occasion de poursuivre la discussion sur les activités du club. La première série de problèmes y a également présentée.}
 
-◊a[#:href (local-url "")]{← Retour à l’accueil}
+◊in-link[""]{← Retour à l’accueil}
 
 ◊h1{◊post-title[]}
 
@@ -15,9 +15,9 @@ Les activités suivantes ont été proposées (par ordre de l’intérêt exprim
 ◊ul[#:class "long-list"]{
     ◊li{◊em{Rencontres hebdomadaires:}
         Une série de problèmes de différentes difficultés sur une même thématique
-        (tirés de ◊a[#:href "https://open.kattis.com/"]{Kattis},
-        ◊a[#:href "https://leetcode.com/"]{LeetCode},
-        ◊a[#:href "https://codeforces.com/"]{Codeforces}, …) est présentée.
+        (tirés de ◊out-link["https://open.kattis.com/"]{Kattis},
+        ◊out-link["https://leetcode.com/"]{LeetCode},
+        ◊out-link["https://codeforces.com/"]{Codeforces}, …) est présentée.
         Des groupes de deux ou plus sont formés pour travailler sur ces problèmes pendant la séance.
         La semaine suivante, les groupes ayant résolu un problème sont invités à présenter leur solution.
     }
@@ -31,7 +31,7 @@ Les activités suivantes ont été proposées (par ordre de l’intérêt exprim
         ◊ul{
             ◊li{De type ICPC, en temps chronométré avec une série de problèmes;}
             ◊li{Programme le plus performant pour un problème donné (sur plusieurs jours);}
-            ◊li{Battlecode : réutiliser les ◊a[#:href "https://play.battlecode.org/resources"]{sujets des années précédentes};}
+            ◊li{Battlecode : réutiliser les ◊out-link["https://play.battlecode.org/resources"]{sujets des années précédentes};}
             ◊li{Core War;}
             ◊li{Jeux de cartes (ex. jeu du 10).}
         }
@@ -41,9 +41,9 @@ Les activités suivantes ont été proposées (par ordre de l’intérêt exprim
 La première série de problèmes, ayant pour thématique la géométrie, a été introduite.
 
 ◊ul[#:class "long-list"]{
-    ◊li{(Pour tous) ◊a[#:href "https://open.kattis.com/problems/pieceofcake2"]{◊em{“Piece of Cake!”}} — Un gâteau en forme de parallélépipède a été divisé en quatre parts rectilignes. Calculez le volume de la plus grande des parts.}
-    ◊li{(Intermédiaire) ◊a[#:href "https://open.kattis.com/problems/triangleornaments"]{◊em{“Triangle Ornaments”}} — On suspend une guirlande de triangles, chaque triangle étant attaché par l’un de ses sommets. Étant données la mesure des côtés de chaque triangle, déterminez la largeur qu’ils occupent.}
-    ◊li{(Avancé) ◊a[#:href "https://open.kattis.com/problems/segmentintersection"]{◊em{“Line Segment Intersection”}} — Calculez l’intersection de deux segments du plan dont on vous donne les coordonnées cartésiennes des extrémités. Attention aux cas particuliers!}
+    ◊li{(Pour tous) ◊out-link["https://open.kattis.com/problems/pieceofcake2"]{◊em{“Piece of Cake!”}} — Un gâteau en forme de parallélépipède a été divisé en quatre parts rectilignes. Calculez le volume de la plus grande des parts.}
+    ◊li{(Intermédiaire) ◊out-link["https://open.kattis.com/problems/triangleornaments"]{◊em{“Triangle Ornaments”}} — On suspend une guirlande de triangles, chaque triangle étant attaché par l’un de ses sommets. Étant données la mesure des côtés de chaque triangle, déterminez la largeur qu’ils occupent.}
+    ◊li{(Avancé) ◊out-link["https://open.kattis.com/problems/segmentintersection"]{◊em{“Line Segment Intersection”}} — Calculez l’intersection de deux segments du plan dont on vous donne les coordonnées cartésiennes des extrémités. Attention aux cas particuliers!}
 }
 
 Nous avons commencé à travailler sur ces problèmes en groupes de deux personnes.
