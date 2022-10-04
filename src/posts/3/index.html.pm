@@ -3,7 +3,7 @@
 ◊define-meta[uuid]{f124e088-fba7-4510-9b4e-79fd36ccd375}
 ◊define-meta[title]{Rencontre hebdomadaire du club #2}
 ◊define-meta[date]{2022-09-29T17:30:00-04:00}
-◊define-meta[summary]{Dans cette deuxième rencontre, nous avons discuté de nos solutions pour la série de problèmes géométriques. Nous avons ensuite travaillé sur une nouvelle série de problèmes liés aux chaînes de caractères.}
+◊define-meta[summary]{Nous avons discuté de nos solutions pour la série de problèmes géométriques. Nous avons ensuite travaillé sur une nouvelle série de problèmes liés aux chaînes de caractères.}
 
 Dans cette deuxième rencontre, nous avons commencé par discuter des solutions de la série de problèmes sur la géométrie.
 
