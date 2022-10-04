@@ -95,6 +95,7 @@ html {
     --background-color: #032026;
     --highlight-color: rgba(255, 255, 255, 0.15);
     --text-color: #fbfbfb;
+    --text-secondary: #8092a8;
     --text-sans: "IBM Plex Sans", sans-serif;
     --text-mono: "IBM Plex Mono", monospace;
     --base-size: 19px;
@@ -119,18 +120,35 @@ p {
 
 a {
     color: inherit;
-    text-decoration: none;
     transition: background-color ease-out .05s;
-}
-
-a:hover, a:focus {
-    background-color: var(--highlight-color);
     border-radius: 2px;
+
+    text-decoration-color: var(--text-secondary);
+    text-underline-offset: 3px;
+    text-underline-position: from-font;
+    text-decoration-thickness: from-font;
 }
 
 a:focus {
+    background-color: var(--highlight-color);
     outline: 2px solid currentColor;
 }
+
+:is(h1, h2, h3, h4, h5, h6) > a
+{
+    text-decoration: none;
+}
+
+:is(h1, h2, h3, h4, h5, h6) > a:hover::before
+{
+    content: "#";
+    color: var(--text-secondary);
+
+    display: inline-block;
+    width: var(--base-height);
+    margin-left: calc(-1 * var(--base-height));
+}
+
 
 .code {
     font-family: var(--text-mono);
@@ -261,8 +279,8 @@ body > footer {
     margin: var(--base-height) 0;
 }
 
-.post-list li > a:hover {
-    background-color: initial;
+.post-list li > a {
+    text-decoration: none;
 }
 
 .post-list article header h3 {
