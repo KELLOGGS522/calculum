@@ -45,9 +45,9 @@ Les activités suivantes ont été proposées (par ordre de l’intérêt exprim
 La première série de problèmes, ayant pour thématique la géométrie, a été introduite.
 
 ◊ul[#:class "long-list"]{
-    ◊li{(Pour tous) ◊out-link["https://open.kattis.com/problems/pieceofcake2"]{◊em{“Piece of Cake!”}} — Un gâteau en forme de parallélépipède a été divisé en quatre parts rectilignes. Calculez le volume de la plus grande des parts.}
-    ◊li{(Intermédiaire) ◊out-link["https://open.kattis.com/problems/triangleornaments"]{◊em{“Triangle Ornaments”}} — On suspend une guirlande de triangles, chaque triangle étant attaché par l’un de ses sommets. Étant données la mesure des côtés de chaque triangle, déterminez la largeur qu’ils occupent.}
-    ◊li{(Avancé) ◊out-link["https://open.kattis.com/problems/segmentintersection"]{◊em{“Line Segment Intersection”}} — Calculez l’intersection de deux segments du plan dont on vous donne les coordonnées cartésiennes des extrémités. Attention aux cas particuliers!}
+    ◊li{◊out-link["https://open.kattis.com/problems/pieceofcake2"]{“Piece of Cake!”} — Un gâteau en forme de parallélépipède a été divisé en quatre parts rectilignes. Calculez le volume de la plus grande des parts.}
+    ◊li{◊out-link["https://open.kattis.com/problems/triangleornaments"]{“Triangle Ornaments”} — On suspend une guirlande de triangles, chaque triangle étant attaché par l’un de ses sommets. Étant données la mesure des côtés de chaque triangle, déterminez la largeur qu’ils occupent.}
+    ◊li{◊out-link["https://open.kattis.com/problems/segmentintersection"]{“Line Segment Intersection”} — Calculez l’intersection de deux segments du plan dont on vous donne les coordonnées cartésiennes des extrémités. Attention aux cas particuliers!}
 }
 
 Nous avons commencé à travailler sur ces problèmes en groupes de deux personnes.
