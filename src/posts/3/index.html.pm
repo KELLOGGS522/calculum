@@ -3,19 +3,17 @@
 ◊define-meta[uuid]{f124e088-fba7-4510-9b4e-79fd36ccd375}
 ◊define-meta[title]{Rencontre hebdomadaire du club #2}
 ◊define-meta[date]{2022-09-29T17:30:00-04:00}
-◊define-meta[summary]{Dans cette deuxième rencontre, nous discuterons des solutions de la série de problèmes géométriques. Nous travaillerons ensuite sur une nouvelle série de problèmes liés aux chaînes de caractères.}
+◊define-meta[summary]{Dans cette deuxième rencontre, nous avons discuté de nos solutions pour la série de problèmes géométriques. Nous avons ensuite travaillé sur une nouvelle série de problèmes liés aux chaînes de caractères.}
 
 ◊in-link[""]{← Retour à l’accueil}
 
 ◊h1{◊post-title[]}
 
-Dans cette deuxième rencontre, nous commencerons par discuter des solutions de la série de problèmes sur la géométrie.
-N’hésitez pas à venir présenter votre solution!
-La plupart des problèmes peuvent être résolus de plusieurs façons différentes, et il est toujours instructif de comparer ces solutions.
+Dans cette deuxième rencontre, nous avons commencé par discuter des solutions de la série de problèmes sur la géométrie.
 
 ◊link-h2["problems"]{Problèmes}
 
-Nous travaillerons sur la série de problèmes suivante, sur la thématique des chaînes de caractères.
+Nous nous sommes ensuite penchés sur la série de problèmes suivante, sur la thématique des chaînes de caractères.
 Les problèmes sont en ordre croissant de difficulté.
 
 ◊ol[#:class "long-list"]{
