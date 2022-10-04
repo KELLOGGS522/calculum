@@ -320,3 +320,23 @@ body > footer {
     font-size: 0.8rem;
     letter-spacing: 0.2ch;
 }
+
+.post-nav {
+    display: flex;
+}
+
+.post-nav span {
+    flex: 1;
+}
+
+.post-nav :nth-child(1) {
+    text-align: left;
+}
+
+.post-nav :nth-child(2) {
+    text-align: center;
+}
+
+.post-nav :nth-child(3) {
+    text-align: right;
+}
