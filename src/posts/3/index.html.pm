@@ -13,7 +13,7 @@ Dans cette deuxième rencontre, nous commencerons par discuter des solutions de 
 N’hésitez pas à venir présenter votre solution!
 La plupart des problèmes peuvent être résolus de plusieurs façons différentes, et il est toujours instructif de comparer ces solutions.
 
-◊h2{Problèmes}
+◊link-h2["problems"]{Problèmes}
 
 Nous travaillerons sur la série de problèmes suivante, sur la thématique des chaînes de caractères.
 Les problèmes sont en ordre croissant de difficulté.
@@ -26,7 +26,7 @@ Les problèmes sont en ordre croissant de difficulté.
     ◊li{◊out-link["https://open.kattis.com/problems/automatictrading"]{◊em{“Automatic Trading”}} — Calculez le plus long préfixe commun à des paires de suffixes d’une chaîne de caractères.}
 }
 
-◊h2{Ressources}
+◊link-h2["resources"]{Ressources}
 
 Voici quelques ressources utiles pour lire et pratiquer sur le sujet des chaînes de caractères:
 

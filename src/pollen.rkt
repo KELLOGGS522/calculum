@@ -37,6 +37,13 @@
        (target "_blank"))
       ,@contents))
 
+;; Make a heading which can be linked to
+(provide link-h2)
+(define (link-h2 target . contents)
+  `(h2 ((id ,target))
+     (a ((href ,(string-append "#" target)))
+       ,@contents)))
+
 ; Posts
 
 ;; Get the list of posts starting from the most recent one
@@ -84,7 +91,7 @@
 (define (post-summary [metas (current-metas)])
   (select-from-metas 'summary metas))
 
-; Tags
+; Other tags
 
 (provide datetime)
 (define datetime (default-tag-function 'time))

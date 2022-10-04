@@ -9,6 +9,8 @@
 
 ◊h1{◊post-title[]}
 
+◊link-h2["activities"]{Activités}
+
 Pour commencer, nous avons poursuivi la discussion entamée la semaine passée sur les activités.
 Les activités suivantes ont été proposées (par ordre de l’intérêt exprimé).
 
@@ -37,6 +39,8 @@ Les activités suivantes ont été proposées (par ordre de l’intérêt exprim
         }
     }
 }
+
+◊link-h2["problems"]{Problèmes}
 
 La première série de problèmes, ayant pour thématique la géométrie, a été introduite.
 
