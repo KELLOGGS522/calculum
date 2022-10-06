@@ -13,15 +13,16 @@
         ◊body{
             ◊nav[#:class "post-nav"]{
                 ◊span{◊when/splice[(next here)]{
-                    ◊in-link[(next here)]{← Précédent}
+                    ◊in-link[(next here)]{← Précédent}
                 }}
-                ◊span{◊in-link[""]{↑ Accueil}}
+                ◊span{◊in-link[""]{↑ Accueil}}
                 ◊span{◊when/splice[(previous here)]{
-                    ◊in-link[(previous here)]{Suivant →}
+                    ◊in-link[(previous here)]{Suivant →}
                 }}
             }
 
             ◊h1{◊post-title[]}
+            ◊datetime[#:datetime (post-iso-date)]{le ◊post-human-date[]}
 
             ◊doc
         }

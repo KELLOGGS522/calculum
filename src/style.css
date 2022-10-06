@@ -262,7 +262,7 @@ body > footer {
     margin-top: calc(2 * var(--base-height));
 }
 
-/** Posts **/
+/** Post list **/
 
 .feed-link {
     font-size: 1rem;
@@ -321,6 +321,8 @@ body > footer {
     letter-spacing: 0.2ch;
 }
 
+/** Post presentation **/
+
 .post-nav {
     display: flex;
 }
@@ -339,4 +341,10 @@ body > footer {
 
 .post-nav :nth-child(3) {
     text-align: right;
+}
+
+h1 + time {
+    display: block;
+    margin: -2rem 0 2rem 0;
+    font-style: italic;
 }
