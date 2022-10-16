@@ -348,3 +348,17 @@ h1 + time {
     margin: -2rem 0 2rem 0;
     font-style: italic;
 }
+
+/** Math **/
+
+.MJX_HoverRegion {
+    background-color: transparent !important;
+}
+
+.MJX_LiveRegion {
+    background-color: transparent !important;
+}
+
+.MJX_ToolTip {
+    background-color: transparent !important;
+}

@@ -25,6 +25,7 @@
             ◊datetime[#:datetime (post-iso-date)]{le ◊post-human-date[]}
 
             ◊doc
+            ◊script[#:src "/mathjax/tex-chtml.js"]
         }
     }
 )
