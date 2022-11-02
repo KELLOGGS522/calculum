@@ -5,9 +5,22 @@
 ◊define-meta[date]{2022-11-03T17:30:00-04:00}
 ◊define-meta[summary]{Nous reprendrons nos rencontres hebdomadaires en commençant par discuter des solutions aux problèmes de graphes. Nous débuterons ensuite une nouvelle série de problèmes sur la programmation dynamique.}
 
-Nous reprendrons nos rencontres hebdomadaires en commençant par discuter des solutions aux problèmes de graphes.
-Nous débuterons ensuite une nouvelle série de problèmes sur la programmation dynamique.
+Nous reprendrons nos rencontres hebdomadaires en commençant par discuter des solutions aux ◊in-link["posts/5/#problems"]{problèmes de graphes}.
+Nous débuterons ensuite une nouvelle série de ◊a[#:href "#problems"]{problèmes utilisant la programmation dynamique}.
 
+◊link-h2["problems"]{Problèmes}
+
+Nous nous intéressons à une série de problèmes portant pouvant se résoudre avec la technique dite de programmation dynamique.
+Voyez ◊a[#:href "#resources"]{ci-dessous} pour quelques explications à ce sujet.
+Les problèmes de la série sont en ordre croissant de difficulté.
+
+◊ol[#:class "long-list"]{
+    ◊li{◊out-link["https://open.kattis.com/problems/commercials"]{“Radio Commercials”} — Identifiez l’intervalle de temps pendant lequel la diffusion d’une publicité est susceptible de rapporter le plus de bénéfice.}
+    ◊li{◊out-link["https://open.kattis.com/problems/tritiling"]{“Tri Tiling”} — Combien de façons différentes y a-t-il de remplir un rectangle ◊math{3 \times n} avec des tuiles de taile ◊math{2 \times 1}?}
+    ◊li{◊out-link["https://open.kattis.com/problems/narrowartgallery"]{“Narrow Art Gallery”} — Calculez la meilleure façon de fermer ◊math{k} pièces d’un musée, de sorte que les visiteurs puissent toujours y cheminer et de sorte que la valeur des pièces restant ouvertes soit maximale.}
+    ◊li{◊out-link["https://open.kattis.com/problems/goodcoalition"]{“Good Coalition”} — Formez une coalition majoritaire de partis qui a le plus de chance de mener son mandat à son terme.}
+    ◊li{◊out-link["https://open.kattis.com/problems/increasingsubsequence"]{“Increasing Subsequence”} — Trouvez la plus longue sous-séquence d’entiers strictement croissante.}
+}
 
 ◊link-h2["resources"]{Explications et ressources}
 
