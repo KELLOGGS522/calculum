@@ -1,7 +1,7 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 ◊define-meta[uuid]{950504ce-43e7-4281-b745-a3d8225ca591}
-◊define-meta[title]{Rencontre hebdomadaire du club #6}
+◊define-meta[title]{Rencontre #6: Programmation dynamique}
 ◊define-meta[date]{2022-11-03T17:30:00-04:00}
 ◊define-meta[summary]{Nous reprendrons nos rencontres hebdomadaires en commençant par discuter des solutions aux problèmes de graphes. Nous débuterons ensuite une nouvelle série de problèmes sur la programmation dynamique.}
 
@@ -49,10 +49,11 @@ Avec ces deux conditions, si l’on connaît deux solutions optimales, alors on 
 La programmation dynamique dite ◊em{“bottom-up”} consiste à démarrer des plus petites solutions puis à les combiner pour construire progressivement des solutions plus grandes, tout ◊strong{en gardant les solutions intermédiaires en mémoire}.
 Il est également possible de procéder à rebours, en décomposant progressivement le problème initial en sous-problèmes: c’est la programmation dynamique dite ◊em{“top-down”}.
 
-Pour en apprendre plus sur le sujet de la programmation dynamique, je vous recommande les ressources suivantes:
+Pour en apprendre plus sur le sujet de la programmation dynamique, jetez un œil aux ressources suivantes:
 
 ◊ul[#:class "long-list"]{
     ◊li{la section 1.6.5 du ◊out-link["https://umontreal.on.worldcat.org/oclc/945921847"]{livre “Programmation efficace”} donne une autre introduction au concept de programmation dynamique, ainsi que des astuces utiles pour l’implémenter en Python;}
+    ◊li{la vidéo ◊out-link["https://www.youtube.com/watch?v=aPQY__2H3tE"]{“5 Simple Steps for Solving Dynamic Programming Problems”} de ◊em{Reducible} passe à travers deux exemples classiques en détail et tire les principes généraux utiles à la programmation dynamique;}
     ◊li{le chapitre 6 du ◊out-link["https://umontreal.on.worldcat.org/oclc/1154565111"]{livre “Guide to Competitive Programming”} de A. Laaksonen entre dans plus de détails et détaille des exemples classiques de programmation dynamique, implémentés en C++;}
     ◊li{la section ◊out-link["https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html"]{“Dynamic Programming”} du ◊out-link["https://cp-algorithms.com/"]{site web cp-algorithms.com} traite de sujets plus avancés en programmation dynamique.}
 }

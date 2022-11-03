@@ -1,7 +1,7 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 ◊define-meta[uuid]{0a159acf-4bca-4817-946c-502b11d18e46}
-◊define-meta[title]{Rencontre hebdomadaire du club #4}
+◊define-meta[title]{Rencontre #4: Graphes}
 ◊define-meta[date]{2022-10-13T17:30:00-04:00}
 ◊define-meta[summary]{Nous avons discuté des solutions aux problèmes sur les chaînes de caractères, puis une nouvelle série de problèmes sur les graphes a été annoncée.}
 
