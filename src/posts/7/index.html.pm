@@ -15,11 +15,11 @@ Voyez ◊a[#:href "#resources"]{ci-dessous} pour quelques explications à ce suj
 Les problèmes de la série sont en ordre croissant de difficulté.
 
 ◊ol[#:class "long-list"]{
-    ◊li{◊out-link["https://open.kattis.com/problems/commercials"]{“Radio Commercials”} — Identifiez l’intervalle de temps pendant lequel la diffusion d’une publicité est susceptible de rapporter le plus de bénéfice.}
-    ◊li{◊out-link["https://open.kattis.com/problems/tritiling"]{“Tri Tiling”} — Combien de façons différentes y a-t-il de remplir un rectangle ◊math{3 \times n} avec des tuiles de taile ◊math{2 \times 1}?}
+    ◊li{◊out-link["https://open.kattis.com/problems/commercials"]{“Radio Commercials”} — Identifiez l’intervalle de temps pendant lequel la diffusion d’une publicité est susceptible de rapporter le plus gros bénéfice.}
+    ◊li{◊out-link["https://projecteuler.net/problem=15"]{“Lattice Paths”} — Calculez le nombre d’itinéraires possibles qui cheminent d’un bout à l’autre d’une grille ◊math{20 \times 20}, en se déplaçant vers le bas ou vers la droite.}
+    ◊li{◊out-link["https://open.kattis.com/problems/tritiling"]{“Tri Tiling”} — Combien y a-t-il de façons différentes de remplir un rectangle de taille ◊math{3 \times n} avec des tuiles de taille ◊math{2 \times 1}?}
     ◊li{◊out-link["https://open.kattis.com/problems/narrowartgallery"]{“Narrow Art Gallery”} — Calculez la meilleure façon de fermer ◊math{k} pièces d’un musée, de sorte que les visiteurs puissent toujours y cheminer et de sorte que la valeur des pièces restant ouvertes soit maximale.}
     ◊li{◊out-link["https://open.kattis.com/problems/goodcoalition"]{“Good Coalition”} — Formez une coalition majoritaire de partis qui a le plus de chance de mener son mandat à son terme.}
-    ◊li{◊out-link["https://open.kattis.com/problems/increasingsubsequence"]{“Increasing Subsequence”} — Trouvez la plus longue sous-séquence d’entiers strictement croissante.}
 }
 
 ◊link-h2["resources"]{Explications et ressources}
