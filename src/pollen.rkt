@@ -44,6 +44,12 @@
      (a ((href ,(string-append "#" target)))
        ,@contents)))
 
+(provide link-h3)
+(define (link-h3 target . contents)
+  `(h3 ((id ,target))
+     (a ((href ,(string-append "#" target)))
+       ,@contents)))
+
 ; Posts
 
 ;; Get the list of posts starting from the most recent one

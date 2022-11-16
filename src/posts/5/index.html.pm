@@ -13,12 +13,12 @@ puis une nouvelle ◊a[#:href "#problems"]{série de problèmes sur les graphes}
 Au cours des ◊in-link["posts/3/"]{deux} ◊in-link["posts/4/"]{dernières} semaines, nous nous sommes consacrés à des problèmes sur les chaînes de caractères.
 Nous avons consacré cette rencontre à une discussion sur les solutions à ces problèmes.
 
-◊h3{Avion}
+◊link-h3["avion"]{Avion}
 
 Pour résoudre le problème ◊out-link["https://open.kattis.com/problems/avion"]{“Avion”}, il suffisait d’analyser chaque ligne de l’entrée à la recherche d’un motif fixé, et de noter les lignes contenant une occurrence.
 Certains se sont essayés au ◊em{code golfing} sur ce problème: pour le moment, ◊out-link["https://open.kattis.com/problems/avion/statistics#toplist_shortest_title"]{la plus courte solution trouvée} est longue de 62 octets et programmée en Python 3.
 
-◊h3{Solitaires}
+◊link-h3["pebblesolitaire"]{Solitaires}
 
 Le problème ◊out-link["https://open.kattis.com/problems/pebblesolitaire"]{“Pebble Solitaire”} peut être résolu par une recherche exhaustive ◊em{(backtracking)} qui essaie tous les coups possibles et retient le minimum de pions qu’on peut ainsi atteindre.
 ◊out-link["https://open.kattis.com/problems/pebblesolitaire/statistics#toplist_shortest_title"]{La plus courte solution trouvée} pour ce problème est longue de 155 octets et programmée en Python 3.
@@ -37,7 +37,7 @@ Malheureusement, une tentative d’implémentation de ce dernier algorithme s’
 Nous avons émis des doutes sur la validité d’une des affirmations de l’article, selon laquelle toute configuration réductible à ◊math{k} pions peut être divisée en ◊math{k} configurations réductibles chacune à 1 pion.
 Nous avons écrit à Cristopher Moore pour obtenir plus d’explications à ce sujet.
 
-◊h3{Bing It On}
+◊link-h3["bing"]{Bing It On}
 
 Une approche naïve pour résoudre ◊out-link["https://open.kattis.com/problems/bing"]{“Bing It On”} consiste à conserver la liste des mots vus précédemment, et à parcourir cette liste à chaque nouveau mot ◊math{w} pour trouver le nombre de mots précédents dont ◊math{w} est un préfixe.
 Cette approche en ◊math{O(N^2)} n’est pas assez efficace pour résoudre le problème.
@@ -50,7 +50,7 @@ Une autre approche consiste à construire un ◊out-link["https://en.wikipedia.o
 Chaque nœud du trie est annoté avec le nombre de mots qui commencent avec le préfixe correspondant.
 À l’aide de cette structure, on peut répondre en temps constant à la question du nombre de mots précédents dont le mot actuel est un préfixe.
 
-◊h3{Factorisation}
+◊link-h3["stringfactoring"]{Factorisation}
 
 Dans le problème ◊out-link["https://open.kattis.com/problems/stringfactoring"]{“String Factoring”}, l’objectif est de trouver la factorisation la plus courte d’une chaîne de caractères.
 Les opérations autorisées sont la concaténation de deux factorisations et la répétition d’un sous-mot un nombre arbitraire de fois.
@@ -74,7 +74,7 @@ Cette valeur peut être calculée récursivement à partir de celle d’autres s
 Le premier cas de cette équation correspond à la concaténation de deux factorisations, tandis que le second cas correspond à la factorisation d’une période.
 Cette approche donne un algorithme en ◊math{O(N^4)}, suffisant pour valider le problème.
 
-◊h3{Plus long préfixe commun}
+◊link-h3["automatic-trading"]{Plus long préfixe commun}
 
 Dans ◊out-link["https://open.kattis.com/problems/automatictrading"]{“Automatic Trading”}, l’objectif est de calculer le plus long préfixe commun à 100 000 paires de suffixes piochées dans un même mot de 100 000 caractères.
 Le fait que les suffixes soient tous choisis dans le même mot pourrait nous orienter vers une solution à base de ◊out-link["https://cp-algorithms.com/string/suffix-array.html"]{table des suffixes}.
