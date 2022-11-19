@@ -349,6 +349,17 @@ h1 + time {
     font-style: italic;
 }
 
+/** Figures **/
+
+figure {
+    text-align: center;
+    margin: var(--base-height);
+}
+
+figcaption {
+    font-style: italic;
+}
+
 /** Math **/
 
 .MJX_HoverRegion {
