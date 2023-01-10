@@ -149,8 +149,7 @@ a:focus {
     margin-left: calc(-1 * var(--base-height));
 }
 
-
-.code {
+.code, tt, pre {
     font-family: var(--text-mono);
 }
 
