@@ -219,6 +219,16 @@ h3 {
     mask-image: url("icons/feather/rss.svg");
 }
 
+.icon-pin::before
+{
+    mask-image: url("icons/feather/pin.svg");
+}
+
+.icon-calendar::before
+{
+    mask-image: url("icons/feather/calendar.svg");
+}
+
 /** Structure **/
 
 body > header {
