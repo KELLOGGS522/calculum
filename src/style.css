@@ -229,6 +229,11 @@ h3 {
     mask-image: url("icons/feather/calendar.svg");
 }
 
+.icon-git::before
+{
+    mask-image: url("icons/feather/git.svg");
+}
+
 /** Structure **/
 
 body > header {
@@ -269,6 +274,7 @@ body > header h2 {
 
 body > footer {
     margin-top: calc(2 * var(--base-height));
+    font-style: italic;
 }
 
 /** Post list **/

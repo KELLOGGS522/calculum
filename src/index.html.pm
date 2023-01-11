@@ -24,10 +24,7 @@ Questions, commentaires, suggestions:◊br{}
 
 ◊h2{
     Activités
-    ◊a[
-        #:href (local-url "feeds/posts.xml")
-        #:class "feed-link icon-before icon-rss"
-    ]{Flux RSS}
+    ◊span[#:class "feed-link icon-before icon-rss"]{◊in-link["feeds/posts.xml"]{Flux RSS}}
 }
 
 ◊(define post-list (list-posts "posts.ptree"))
@@ -45,4 +42,9 @@ Questions, commentaires, suggestions:◊br{}
             }
         }}
     }
+}
+
+◊footer{
+    Généré à l’aide de ◊out-link["https://docs.racket-lang.org/pollen"]{Pollen}
+     · ◊span[#:class "icon-before icon-git"]{◊out-link["https://github.com/matteodelabre/calculum"]{Code source}}
 }
