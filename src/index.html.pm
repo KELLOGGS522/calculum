@@ -8,7 +8,7 @@
 
 ◊span[#:class "icon-before icon-calendar"]{
     Horaire:
-    ◊em{(à déterminer)}
+    les mercredis 17h–19h
 }
  · ◊span[#:class "icon-before icon-pin"]{
     Local:
