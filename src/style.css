@@ -100,6 +100,7 @@ html {
     --text-mono: "IBM Plex Mono", monospace;
     --base-size: 19px;
     --base-height: 27px;
+    --border-radius: 5px;
 
     background: var(--background-color);
     color: var(--text-color);
@@ -118,10 +119,16 @@ p {
     margin: var(--base-height) 0;
 }
 
+p.standout {
+    background-color: var(--highlight-color);
+    padding: var(--base-height);
+    border-radius: var(--border-radius);
+}
+
 a {
     color: inherit;
     transition: background-color ease-out .05s;
-    border-radius: 2px;
+    border-radius: var(--border-radius);
 
     text-decoration-color: var(--text-secondary);
     text-underline-offset: 3px;
@@ -316,7 +323,7 @@ body > footer {
 
 .post-list li > a:hover header h3 > span {
     background-color: var(--highlight-color);
-    border-radius: 2px;
+    border-radius: var(--border-radius);
 }
 
 .post-list article header p {
@@ -326,7 +333,7 @@ body > footer {
 .post-list .upcoming {
     background-color: var(--highlight-color);
     padding: calc(var(--base-height) / 2);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }
 
 .post-list .upcoming header::before {
