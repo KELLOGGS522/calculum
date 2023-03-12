@@ -6,7 +6,7 @@
 ◊define-meta[summary]{En l’honneur de la journée de π, nous consacrerons cette séance à l’écriture de programmes pour approcher sa valeur à l’aide de méthodes diverses.}
 
 En l’honneur de la ◊out-link["https://en.wikipedia.org/wiki/Pi_Day"]{journée de ◊math{\pi}}, le 14 mars, la séance d’aujourd’hui sera consacrée à l’écriture de programmes pour approximer la valeur de la constante d’Archimède.
-Les programmes doivent afficher sur la sortie standard une approximation de ◊math{\pi}, un argument du programme permettant de régler la précision.
+Les programmes doivent afficher sur la sortie standard une approximation de ◊math{\pi}, un argument du programme permettant d’ajuster la précision.
 Plutôt que de viser la rapidité ou l’efficacité du calcul, nous proposons de valoriser le caractère inhabituel, élégant ou original de la méthode utilisée.
 
 ◊em{Il y aura de la tarte pour stimuler nos neurones!}
@@ -18,10 +18,11 @@ Nous présenterons nos résultats la semaine prochaine.
 ◊ul[#:class "long-list"]{
     ◊li{
         Plusieurs ◊strong{méthodes numériques} permettent d’approcher ◊math{\pi}.
-        Un exemple est l’◊out-link["https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm"]{algorithme de Gauss-Legendre}, basé sur une approche itérative.
-        Plus surprenant, la ◊out-link["https://en.wikipedia.org/wiki/Mandelbrot_set#Pi_in_the_Mandelbrot_set"]{fractale de Mandelbrot} peut également être utilisée pour calculer les décimales de ◊math{\pi}.
-        Il y a quelques années, ◊out-link["https://www.3blue1brown.com/lessons/clacks-solution"]{3blue1brown a présenté une méthode} permettant de calculer une approximation de ◊math{\pi} en utilisant les lois de conservation de la ◊out-link["https://fr.wikipedia.org/wiki/Quantit%C3%A9_de_mouvement"]{quantité de mouvement}.
-        Si vous avez accès à un ordinateur quantique, l’◊out-link["https://qiskit.org/textbook/ch-demos/piday-code.html"]{algorithme d’estimation de phase} peut être utilisé pour approcher ◊math{\pi}.
+        L’◊out-link["https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm"]{algorithme de Gauss-Legendre} s’appuie sur la moyenne arithmético-géométrique.
+        Plus surprenant, ◊math{\pi} se trouve aussi dans l’◊out-link["https://en.wikipedia.org/wiki/Mandelbrot_set#Pi_in_the_Mandelbrot_set"]{ensemble de Mandelbrot}.
+        La constante peut également être approchée avec les lois de conservation de la ◊out-link["https://fr.wikipedia.org/wiki/Quantit%C3%A9_de_mouvement"]{quantité de mouvement} et de l’énergie, comme ◊out-link["https://www.3blue1brown.com/lessons/clacks-solution"]{montré par 3blue1brown}.
+        Pour une approche datant d’avant notre ère, nous pouvons nous inspirer de ◊out-link["https://personal.math.ubc.ca/~cass/courses/m446-03/pi.pdf"]{l’algorithme utilisé par Archimède}.
+        Enfin, si vous avez accès à un ordinateur quantique, l’◊out-link["https://qiskit.org/textbook/ch-demos/piday-code.html"]{algorithme d’estimation de phase} peut être utilisé pour approcher ◊math{\pi}.
     }
     ◊li{
         L’approximation de ◊math{\pi} est un exemple classique d’◊strong{approche ◊out-link["https://en.wikipedia.org/wiki/Monte_Carlo_method#Overview"]{Monte Carlo}}.
