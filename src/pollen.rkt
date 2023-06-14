@@ -80,7 +80,7 @@
 ;; Retrieve and format the date of a given post in ISO-8601
 (provide post-iso-date)
 (define (post-iso-date [metas (current-metas)])
-  (~t (post-date metas) "YYYY-MM-dd'T'HH:mm:ssXXX"))
+  (~t (post-date metas) "yyyy-MM-dd'T'HH:mm:ssXXX"))
 
 ;; Retrieve and format the date of a given post for humans
 (provide post-human-date)
