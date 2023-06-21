@@ -7,8 +7,7 @@
 }
 
 ◊span[#:class "icon-before icon-calendar"]{
-    Horaire:
-    les mercredis 17h30–19h30
+    ◊em{De retour à l’automne!}
 }
  · ◊span[#:class "icon-before icon-pin"]{
     Local:
