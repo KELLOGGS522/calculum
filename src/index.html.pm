@@ -7,7 +7,8 @@
 }
 
 ◊span[#:class "icon-before icon-calendar"]{
-    ◊em{De retour à l’automne!}
+    Horaire:
+    les lundis 18h30–20h30
 }
  · ◊span[#:class "icon-before icon-pin"]{
     Local:
