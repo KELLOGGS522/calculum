@@ -16,7 +16,7 @@
 }
 
 Le club se réunit chaque semaine autour de nouveaux ◊em{casse-têtes informatiques} qui feront appel à vos connaissances en algorithmique, en logique et en programmation.
-Outre le plaisir à les résoudre, ces casse-têtes offrent un entraînement aux compétitions de programmation (◊out-link["https://icpc.global"]{ICPC}, ◊out-link["https://csgames.org"]{CS Games}, ◊out-link["https://codingcompetitions.withgoogle.com/codejam"]{Code Jam}, ◊out-link["https://facebook.com/codingcompetitions/hacker-cup"]{Hacker Cup}, ◊out-link["https://adventofcode.com"]{Advent of Code}, ◊out-link["https://en.wikipedia.org/wiki/Category:Programming_contests"]{…}) et aux questions posées en entrevue par certaines grandes compagnies.
+Outre le plaisir à les résoudre, ces casse-têtes offrent un entraînement aux compétitions de programmation (◊out-link["https://icpc.global"]{ICPC}, ◊out-link["https://csgames.org"]{CS Games}, ◊out-link["https://facebook.com/codingcompetitions/hacker-cup"]{Hacker Cup}, ◊out-link["https://adventofcode.com"]{Advent of Code}, ◊out-link["https://en.wikipedia.org/wiki/Category:Programming_contests"]{…}) et aux questions posées en entrevue par certaines grandes compagnies.
 Que vous soyez simple curieux, débutant ou déjà aguerri, soyez les bienvenus au Calculum!
 
 Questions, commentaires, suggestions:◊br{}
