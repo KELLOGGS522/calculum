@@ -382,6 +382,17 @@ figcaption {
     font-style: italic;
 }
 
+/** Problems **/
+.problem-difficulty
+{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: .25em;
+    padding: 0px .25em;
+    outline: .1em solid rgba(255, 255, 255, 0.2);
+    margin: 0 .5em;
+}
+
 /** Math **/
 
 .MJX_HoverRegion {

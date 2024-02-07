@@ -112,6 +112,17 @@
 (define (display-math . xs)
   `(mathjax ,(apply string-append `("\\[" ,@xs "\\]"))))
 
+;; Problems
+
+(provide problem)
+(define (problem id name difficulty . contents)
+  `(li ((class "problem"))
+     (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
+        "“" ,name "”")
+     (span ((class "problem-difficulty")) ,difficulty)
+     " — "
+     ,@contents))
+
 ; Decoding
 
 ;; Turn double line breaks into new paragraphs but

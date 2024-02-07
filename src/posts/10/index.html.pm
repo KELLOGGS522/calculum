@@ -1,7 +1,7 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 ◊define-meta[uuid]{d35a83f1-2262-4bb8-b7db-2a2716fa67d5}
-◊define-meta[title]{Concours d’entraînement}
+◊define-meta[title]{Concours #1}
 ◊define-meta[date]{2022-11-24T17:30:00-05:00}
 ◊define-meta[summary]{L’objectif de cette rencontre était de se mettre dans des conditions similaires à celles d’un concours de programmation. Pendant deux heures, vous avez dû résoudre le plus de problèmes possible parmi 5 problèmes dévoilés le jour même.}
 
