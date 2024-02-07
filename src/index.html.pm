@@ -8,7 +8,7 @@
 
 ◊span[#:class "icon-before icon-calendar"]{
     Horaire:
-    les lundis 18h30–20h30
+    les mercredis 18h00–20h00
 }
  · ◊span[#:class "icon-before icon-pin"]{
     Local:
