@@ -119,6 +119,7 @@
   `(li ((class "problem"))
      (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
         "“" ,name "”")
+     " "
      (span ((class "problem-difficulty")) ,difficulty)
      " — "
      ,@contents))
