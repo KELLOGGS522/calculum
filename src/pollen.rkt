@@ -120,7 +120,12 @@
      (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
         "“" ,name "”")
      " "
-     (span ((class "problem-difficulty")) ,difficulty)
+     (span ((class "problem-difficulty")
+            (style ,(string-append "--color: hsl("
+                                   (number->string
+                                     (+ (* (/ (- (string->number difficulty) 1) 9) -100) 100))
+                                   "deg 95% 35%)")))
+            ,difficulty)
      " — "
      ,@contents))
 
