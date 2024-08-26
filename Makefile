@@ -1,6 +1,6 @@
 SRC=src
 LOCALPUB=public
-REMOTEPUB=web-calculum@albert:/srv/calculum/data
+REMOTEPUB=calculum@albert:/srv/calculum/data
 RACOENV=.penv
 RACOFLAGS=--batch --auto --skip-installed --no-docs
 
