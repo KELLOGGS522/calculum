@@ -4,6 +4,7 @@
 ◊define-meta[title]{Concours #2: Sélection des CS Games}
 ◊define-meta[date]{2024-01-24T18:00:00-05:00}
 ◊define-meta[summary]{Afin de sélectionner les membres de la délégation du DIRO pour les CS Games qui auront lieu au mois de mars prochain, nous avons organisé un concours interne.}
+◊define-meta[author]{Mattéo Delabre}
 
 Afin de sélectionner les membres de la délégation du DIRO pour les CS Games qui auront lieu au mois de mars prochain, nous avons organisé un concours interne.
 

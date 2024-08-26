@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #11: Mathématiques}
 ◊define-meta[date]{2023-01-18T17:00:00-05:00}
 ◊define-meta[summary]{Pour commencer la session d’hiver, nous étudierons une belle série de problèmes qui mêlent algorithmique et mathématiques.}
+◊define-meta[author]{Mattéo Delabre}
 
 Pour commencer la session d’hiver, nous étudierons une belle série de problèmes qui mêlent algorithmique et mathématiques.
 

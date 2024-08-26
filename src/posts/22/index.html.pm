@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #19: Géométrie}
 ◊define-meta[date]{2023-04-05T17:00:00-05:00}
 ◊define-meta[summary]{Nous étudierons cette semaine une série de problèmes de géométrie.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudierons cette semaine une série de problèmes de géométrie.
 Voyez aussi notre ◊in-link["posts/2/#problems"]{précédente série de problèmes de géométrie}, étudiés lors de la première rencontre du club.

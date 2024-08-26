@@ -21,8 +21,11 @@
                 }}
             }
 
-            ◊h1{◊post-title[]}
-            ◊datetime[#:datetime (post-iso-date)]{le ◊post-human-date[]}
+            ◊header[#:class "post-header"]{
+                ◊h1{◊post-title[]}
+                ◊datetime[#:datetime (post-iso-date)]{le ◊post-human-date[]}
+                ◊address{par ◊post-author[]}
+            }
 
             ◊doc
             ◊script[#:src "/mathjax/tex-chtml.js"]

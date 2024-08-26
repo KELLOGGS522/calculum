@@ -4,6 +4,7 @@
 ◊define-meta[title]{Présentation du Calculum}
 ◊define-meta[date]{2022-09-15T17:30:00-04:00}
 ◊define-meta[summary]{Présentation de l’univers de la programmation compétitive et des activités futures du club d’algorithmique compétitive. Au local AA-3195. Durée 30 min.}
+◊define-meta[author]{Mattéo Delabre}
 
 Cette présentation a introduit l’univers de la programmation compétitive, les principaux concours universitaires, et a été l’occasion d’une discussion avec les personnes intéressées concernant les activités futures du club.
 Les activités proposées sont des réunions hebdomadaires autour de problèmes de programmation compétitive, la constitution d’équipes pour des compétitions comme l’ICPC, les CS Games et la Battlecode, ainsi que l’organisation de concours internes au DIRO.

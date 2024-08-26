@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #17: πrogrammation}
 ◊define-meta[date]{2023-03-15T17:00:00-05:00}
 ◊define-meta[summary]{En l’honneur de la journée de π, nous consacrerons cette séance à l’écriture de programmes pour approcher sa valeur à l’aide de méthodes diverses.}
+◊define-meta[author]{Mattéo Delabre}
 
 En l’honneur de la ◊out-link["https://en.wikipedia.org/wiki/Pi_Day"]{journée de ◊math{\pi}}, le 14 mars, la séance d’aujourd’hui sera consacrée à l’écriture de programmes pour approximer la valeur de la constante d’Archimède.
 Les programmes doivent afficher sur la sortie standard une approximation de ◊math{\pi}, un argument du programme permettant d’ajuster la précision.

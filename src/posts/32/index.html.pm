@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #28: Séquences croissantes}
 ◊define-meta[date]{2024-02-07T18:00:00-05:00}
 ◊define-meta[summary]{Nous nous intéressons cette semaine à trois problèmes de recherche de sous-séquences croissantes optimales.}
+◊define-meta[author]{Mattéo Delabre}
 
 Le ◊out-link["https://fr.wikipedia.org/wiki/Plus_longue_sous-suite_strictement_croissante"]{problème de la plus longue sous-séquence croissante} est un problème classique en programmation compétitive.
 Il consiste à rechercher, à l’intérieur d’une liste de ◊math{n} éléments, un sous-ensemble d’éléments qui y apparaissent en ordre croissant.

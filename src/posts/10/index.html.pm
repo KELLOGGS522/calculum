@@ -4,6 +4,7 @@
 ◊define-meta[title]{Concours #1}
 ◊define-meta[date]{2022-11-24T17:30:00-05:00}
 ◊define-meta[summary]{L’objectif de cette rencontre était de se mettre dans des conditions similaires à celles d’un concours de programmation. Pendant deux heures, vous avez dû résoudre le plus de problèmes possible parmi 5 problèmes dévoilés le jour même.}
+◊define-meta[author]{Mattéo Delabre}
 
 Cette semaine, notre rencontre a exceptionnellement pris la forme d’un concours d’entraînement.
 L’objectif était de se mettre dans des conditions similaires à celles d’un concours de programmation.

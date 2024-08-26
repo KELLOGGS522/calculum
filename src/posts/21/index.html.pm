@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #18: Diviser pour régner}
 ◊define-meta[date]{2023-03-29T17:00:00-05:00}
 ◊define-meta[summary]{Nous étudierons cette semaine une série de problèmes pouvant être résolus avec diviser pour régner.}
+◊define-meta[author]{Mattéo Delabre}
 
 La série de problèmes de cette semaine peuvent être résolus avec des approches de type ◊em{diviser pour régner}.
 Ce type d’algorithme séparent le problème à résoudre en plusieurs sous-problèmes résolus récursivement, puis rassemblent les résultats pour calculer la réponse au problème original.

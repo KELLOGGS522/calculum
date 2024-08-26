@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #30: Jeux}
 ◊define-meta[date]{2024-02-14T18:00:00-05:00}
 ◊define-meta[summary]{Nous nous intéressons cette semaine à des problèmes de stratégie ou de calcul liés à des jeux à deux ou plusieurs joueurs.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous nous intéressons cette semaine à des problèmes de stratégie ou de calcul liés à des jeux à deux ou plusieurs joueurs.
 

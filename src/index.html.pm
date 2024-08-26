@@ -1,14 +1,14 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 
-◊header{
+◊header[#:class "site-header"]{
     ◊h1{Calculum}
     ◊h2{Club d’algorithmique compétitive universitaire de l’Université de Montréal}
 }
 
 ◊span[#:class "icon-before icon-calendar"]{
     Horaire:
-    les mercredis 18h00–20h00
+    (à déterminer)
 }
  · ◊span[#:class "icon-before icon-pin"]{
     Local:
@@ -44,7 +44,7 @@ Questions, commentaires, suggestions:◊br{}
     }
 }
 
-◊footer{
+◊footer[#:class "site-footer"]{
     Généré à l’aide de ◊out-link["https://docs.racket-lang.org/pollen"]{Pollen}
      · ◊span[#:class "icon-before icon-git"]{◊out-link["https://github.com/matteodelabre/calculum"]{Code source}}
 }

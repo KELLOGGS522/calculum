@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #10: Problèmes de l’ICPC 2021 (suite)}
 ◊define-meta[date]{2022-12-08T17:30:00-05:00}
 ◊define-meta[summary]{Pour clore la session d’automne, nous avons présenté les solutions des problèmes de l’ICPC 2021 étudiés la semaine précédente.}
+◊define-meta[author]{Mattéo Delabre}
 
 Pour clore la session d’automne, nous avons présenté les solutions des ◊in-link["posts/11/#problems"]{problèmes de l’ICPC 2021} étudiés la semaine précédente.
 Vous pouvez trouver ci-dessous des éléments de solution pour chacun de ces problèmes.

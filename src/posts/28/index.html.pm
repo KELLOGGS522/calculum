@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #25: Combinatoire et graphes}
 ◊define-meta[date]{2023-10-09T18:30:00-04:00}
 ◊define-meta[summary]{Nous étudions cette semaine des problèmes en lien avec de la combinatoire et/ou des graphes.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudions cette semaine des problèmes en lien avec de la combinatoire et/ou des graphes.
 

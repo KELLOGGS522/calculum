@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #2: Chaînes de caractères}
 ◊define-meta[date]{2022-09-29T17:30:00-04:00}
 ◊define-meta[summary]{Nous avons discuté de nos solutions pour la série de problèmes géométriques. Nous avons ensuite travaillé sur une nouvelle série de problèmes liés aux chaînes de caractères.}
+◊define-meta[author]{Mattéo Delabre}
 
 Dans cette deuxième rencontre, nous avons commencé par discuter des solutions de la série de problèmes sur la géométrie.
 

@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #8: Programmation dynamique (revue)}
 ◊define-meta[date]{2022-11-17T17:30:00-05:00}
 ◊define-meta[summary]{Nous passerons en revue ensemble les problèmes de programmation dynamique et leurs solutions, et nous discuterons du concours d’entraînement à venir la semaine prochaine.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous passerons en revue ensemble ◊in-link["posts/7/#problems"]{les problèmes de programmation dynamique} et leurs solutions, et nous discuterons du concours d’entraînement à venir la semaine prochaine.
 

@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #13: Recherche exhaustive}
 ◊define-meta[date]{2023-02-01T17:00:00-05:00}
 ◊define-meta[summary]{Nous avons étudions une série de problèmes qui font appel à diverses techniques de recherche exhaustive.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudions cette semaine une série de problèmes qui font appel à diverses techniques de recherche exhaustive.
 

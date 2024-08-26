@@ -97,6 +97,11 @@
 (define (post-summary [metas (current-metas)])
   (select-from-metas 'summary metas))
 
+;; Retrieve the author of a given post
+(provide post-author)
+(define (post-author [metas (current-metas)])
+  (or (select-from-metas 'author metas) "inconnu"))
+
 ; Other tags
 
 (provide datetime)

@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #24: Stratégies de résolution}
 ◊define-meta[date]{2023-10-02T18:30:00-04:00}
 ◊define-meta[summary]{Un aperçu des différentes stratégies applicables aux problèmes de programmation compétitive: recherche exhaustive, programmation dynamique, diviser pour régner, vorace.}
+◊define-meta[author]{Mattéo Delabre}
 
 Après avoir lu le sujet d’un problème de programmation compétitive, la première étape pour construire une solution est de décider comment le programme va rechercher sa solution.
 Certaines techniques sont applicables seulement dans certaines circonstances tandis d’autres sont universelles mais plus lentes à l’exécution.

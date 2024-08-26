@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #22: Problèmes du NWERC 2022}
 ◊define-meta[date]{2023-06-14T17:30:00-04:00}
 ◊define-meta[summary]{Les problèmes de cette semaine sont tirés du concours régional NWERC 2022.}
+◊define-meta[author]{Mattéo Delabre}
 
 Les problèmes de cette semaine sont tirés du concours régional ◊out-link["https://2022.nwerc.eu/"]{NWERC 2022} de l’ICPC, qui s’est tenu en novembre dernier.
 La thématique des problèmes alterne principalement entre géométrie et combinatoire.

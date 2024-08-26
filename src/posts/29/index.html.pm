@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #26: Chemins dans des graphes}
 ◊define-meta[date]{2023-11-13T18:30:00-05:00}
 ◊define-meta[summary]{Nous nous intéressons cette semaine à des problèmes qui consistent à calculer des chemins à travers des graphes respectant certaines propriétés.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous nous intéressons cette semaine à des problèmes qui consistent à calculer des chemins à travers des graphes respectant certaines propriétés.
 

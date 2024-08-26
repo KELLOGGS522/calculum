@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #20: Radar}
 ◊define-meta[date]{2023-05-17T17:30:00-04:00}
 ◊define-meta[summary]{Nous débutons cette semaine les rencontres d’été du club, avec des problèmes choisis en référence au club RADAR nouvellement formé pendant l’hiver.}
+◊define-meta[author]{Mattéo Delabre}
 
 Cette semaine marque le début des rencontres d’été du club.
 Les problèmes de cette semaine font appel à diverses techniques algorithmiques.

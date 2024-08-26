@@ -243,12 +243,12 @@ h3 {
 
 /** Structure **/
 
-body > header {
+.site-header {
     margin-bottom: calc(2 * var(--base-height));
     font-style: italic;
 }
 
-body > header h1 {
+.site-header h1 {
     display: flex;
     align-items: baseline;
     margin: calc(1.5 * var(--base-height)) 0 0 0;
@@ -263,7 +263,7 @@ body > header h1 {
     text-transform: uppercase;
 }
 
-body > header h1::after {
+.site-header h1::after {
     content: "";
     display: block;
     background: currentColor;
@@ -272,14 +272,14 @@ body > header h1::after {
     height: 2px;
 }
 
-body > header h2 {
+.site-header h2 {
     margin: calc(0.5 * var(--base-height)) 0 0 0;
 
     font-size: calc(1.2 * var(--base-size));
     line-height: calc(1.2 * var(--base-height));
 }
 
-body > footer {
+.site-footer {
     margin-top: calc(2 * var(--base-height));
     font-style: italic;
 }
@@ -365,7 +365,7 @@ body > footer {
     text-align: right;
 }
 
-h1 + time {
+.post-header time, .post-header address {
     display: block;
     margin: -2rem 0 2rem 0;
     font-style: italic;

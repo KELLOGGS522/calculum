@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #6: Programmation dynamique}
 ◊define-meta[date]{2022-11-03T17:30:00-04:00}
 ◊define-meta[summary]{Nous avons repris nos rencontres hebdomadaires en commençant par discuter des solutions aux problèmes de graphes. Nous avons ensuite débuté une nouvelle série de problèmes sur la programmation dynamique.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous avons repris nos rencontres hebdomadaires en commençant par discuter des solutions aux ◊in-link["posts/5/#problems"]{problèmes de graphes}.
 Nous avons ensuite débuté une nouvelle série de ◊a[#:href "#problems"]{problèmes utilisant la programmation dynamique}.

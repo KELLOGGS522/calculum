@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #23: Fin de la première saison}
 ◊define-meta[date]{2023-06-21T17:30:00-04:00}
 ◊define-meta[summary]{Aujourd’hui a eu lieu la dernière rencontre du club pour la saison 2022–2023.}
+◊define-meta[author]{Mattéo Delabre}
 
 Alors que s’achève la première saison du Calculum, il est temps pour une courte rétrospective de nos activités.
 

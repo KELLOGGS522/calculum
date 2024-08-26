@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #4: Graphes}
 ◊define-meta[date]{2022-10-13T17:30:00-04:00}
 ◊define-meta[summary]{Nous avons discuté des solutions aux problèmes sur les chaînes de caractères, puis une nouvelle série de problèmes sur les graphes a été annoncée.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous avons discuté des ◊a[#:href "#solutions"]{solutions aux problèmes sur les chaînes de caractères},
 puis une nouvelle ◊a[#:href "#problems"]{série de problèmes sur les graphes} a été annoncée.

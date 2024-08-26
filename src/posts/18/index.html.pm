@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #16: Algorithmes voraces}
 ◊define-meta[date]{2023-03-08T17:00:00-05:00}
 ◊define-meta[summary]{Nous étudierons cette semaine une série de problèmes pouvant être résolus en employant une approche vorace.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudierons cette semaine une série de problèmes pouvant être résolus en employant des approches de type vorace (aussi appelée gloutonne ou ◊em{greedy}).
 Informellement, cette classe d’approches consiste à résoudre un problème en construisant une solution progressivement étape par étape, sans jamais revenir en arrière, à l’aide d’un critère local d’optimalité.

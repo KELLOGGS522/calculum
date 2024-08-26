@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #21: Cryptanalyse}
 ◊define-meta[date]{2023-05-31T17:30:00-04:00}
 ◊define-meta[summary]{Nous étudions cette semaine une série de problèmes qui demande de déchiffrer ou de décrypter un ensemble de chiffrements.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudions cette semaine une série de problèmes de ◊out-link["https://fr.wikipedia.org/wiki/Cryptanalyse"]{cryptanalyse}.
 Chaque problème introduit un chiffrement différent.

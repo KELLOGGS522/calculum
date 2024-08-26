@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #3: Chaînes de caractères (suite)}
 ◊define-meta[date]{2022-10-06T17:30:00-04:00}
 ◊define-meta[summary]{Nous avons poursuivi l’étude de la série de problèmes de la semaine précédente sur les chaînes de caractères, avec quelques problèmes supplémentaires pour celles et ceux qui en voulaient davantage!}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous avons poursuivi l’étude de la ◊in-link["posts/3/#problems"]{série de problèmes de la semaine précédente} sur les chaînes de caractères, avec quelques problèmes supplémentaires pour celles et ceux qui en voulaient davantage!
 

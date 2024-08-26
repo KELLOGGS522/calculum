@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #27: Mathématiques}
 ◊define-meta[date]{2023-11-27T18:30:00-05:00}
 ◊define-meta[summary]{Nous nous intéressons cette semaine à des problèmes impliquant divers calculs.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous nous intéressons cette semaine à des problèmes impliquant divers calculs.
 

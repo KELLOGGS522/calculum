@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #31: Piles et files}
 ◊define-meta[date]{2024-03-20T18:00:00-05:00}
 ◊define-meta[summary]{Les problèmes de cette semaine utilisent des piles, des files et des files de priorité.}
+◊define-meta[author]{Mattéo Delabre}
 
 Les problèmes de cette semaine font appel à des structures ◊out-link["https://dahadaller.github.io/blog/2020/05/10/stacks-queues-heaps-and-hash-tables-in-python/"]{de pile, de file et de file de priorité}.
 L’utilisation de ces structures est soit demandée explicitement dans l’énoncé des problèmes, soit implicite dans l’algorithme qui permet de les résoudre.

@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #9: Problèmes de l’ICPC 2021}
 ◊define-meta[date]{2022-12-01T17:30:00-05:00}
 ◊define-meta[summary]{Nous avons commencé à étudier une série de problèmes issus de l’édition de l’année passée de l’ICPC en Amérique du Nord.}
+◊define-meta[author]{Mattéo Delabre}
 
 Cette semaine, nous avons étudié une ◊a[#:href "#problems"]{série de problèmes} tirés de l’édition 2021 des phases ◊out-link["https://nena21.kattis.com/contests/nena21/problems"]{régionales} et ◊out-link["https://nac22.kattis.com/contests/nac22/problems"]{continentales} de l’ICPC en Amérique du Nord.
 ◊out-link["https://na-northeast.icpc.io/"]{La prochaine édition} commencera le 25 février prochain.

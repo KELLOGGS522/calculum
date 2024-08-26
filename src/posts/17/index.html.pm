@@ -4,6 +4,7 @@
 ◊define-meta[title]{Rencontre #15: Graphes}
 ◊define-meta[date]{2023-02-15T17:00:00-05:00}
 ◊define-meta[summary]{Nous avons étudié cette semaine une série de problèmes sur les graphes.}
+◊define-meta[author]{Mattéo Delabre}
 
 Nous étudierons cette semaine une série de problèmes sur les graphes.
 Voyez aussi notre ◊in-link["posts/5/#problems"]{précédente série de problèmes de graphes}, étudiée à l’automne.
