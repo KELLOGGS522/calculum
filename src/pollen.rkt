@@ -122,17 +122,59 @@
 (provide problem)
 (define (problem id name difficulty . contents)
   `(li ((class "problem"))
-     (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
-        "“" ,name "”")
-     " "
-     (span ((class "problem-difficulty")
-            (style ,(string-append "--color: hsl("
-                                   (number->string
-                                     (+ (* (/ (- (string->number difficulty) 1) 9) -100) 100))
-                                   "deg 95% 35%)")))
-            ,difficulty)
-     " — "
-     ,@contents))
+       (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
+          "“" ,name "”")
+       " "
+       (span ((class "problem-difficulty")
+              (style ,(string-append "--color: hsl("
+                                     (number->string
+                                      (+ (* (/ (- (string->number difficulty) 1) 9) -100) 100))
+                                     "deg 95% 35%)")))
+             ,difficulty)
+       " — "
+       ,@contents))
+
+;; LeetCode Problems
+
+(provide leetcode-problem)
+(define (leetcode-problem url name difficulty . contents)
+  `(li ((class "leetcode-problem"))
+       (a ((href ,url))
+          "“" ,name "”")
+       " "
+       (span ((class "leetcode-problem-difficulty")
+              (style ,(string-append "--color: hsl("
+                                     (number->string
+                                      (cond
+                                       [(string-ci=? difficulty "Easy") 120]   ;; Convert to number
+                                       [(string-ci=? difficulty "Medium") 40]  ;; Convert to number
+                                       [(string-ci=? difficulty "Hard") 0]     ;; Convert to number
+                                       [else 200]))  ;; Default color if no match, as a number
+                                     "deg 95% 35%)")))
+             ,difficulty)
+       " — "
+       ,@contents))
+
+;; Updated problem macro to accept leetcode problems
+
+(provide problem-with-leetcode)
+(define (problem-with-leetcode id name difficulty leetcode-problems . contents)
+  `(li ((class "problem"))
+       (a ((href ,(string-append "https://open.kattis.com/problems/" id)))
+          "“" ,name "”")
+       " "
+       (span ((class "problem-difficulty")
+              (style ,(string-append "--color: hsl("
+                                     (number->string
+                                      (+ (* (/ (- (string->number difficulty) 1) 9) -100) 100))
+                                     "deg 95% 35%)")))
+             ,difficulty)
+       " — "
+       ,@contents
+       ;; Include the LeetCode problems directly inside the li
+       ,@(when leetcode-problems
+           `((ul ((class "leetcode-problems"))
+                 ,@leetcode-problems)))))
 
 ; Decoding
 

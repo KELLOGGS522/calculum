@@ -393,6 +393,23 @@ figcaption {
     margin: 0 .2em;
 }
 
+/** Leetcode Problems **/
+
+.leetcode-problem
+{
+    padding-bottom: .25em;
+} 
+
+.leetcode-problem-difficulty
+{
+    display: inline-block;
+    background: var(--color);
+    border-radius: .25em;
+    padding: 0px .25em;
+    outline: .1em solid var(--color);
+    margin: 0 .2em;
+}
+
 /** Math **/
 
 .MJX_HoverRegion {
