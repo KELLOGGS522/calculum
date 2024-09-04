@@ -59,13 +59,23 @@ serve:
 	python -mhttp.server 1337 --directory ${LOCALPUB} 2> /dev/null
 
 watch:
-	@echo "Watching for changes in ${SRC}/..."
-	inotifywait --quiet --monitor --recursive --event close_write ${SRC} | \
-	    while read -r path; do \
-	        ${MAKE} --no-print-directory pollen; \
-	        ${MAKE} --no-print-directory local; \
-	        timeout 0.1s cat > /dev/null; \
-	    done
+	@echo "Detecting operating system..."
+	@OS=$$(uname); \
+	if [ "$$OS" = "Linux" ]; then \
+		echo "Linux detected. Using inotifywait..."; \
+		inotifywait --quiet --monitor --recursive --event close_write ${SRC} | \
+		while read -r path; do \
+			${MAKE} --no-print-directory pollen; \
+			${MAKE} --no-print-directory local; \
+			timeout 0.1s cat > /dev/null; \
+		done; \
+	elif echo "$$OS" | grep -qE 'MINGW|CYGWIN'; then \
+		echo "Windows detected. Using chokidar-cli..."; \
+		chokidar "${SRC}/**/*.{html.pm,md,rkt,css}" --ignore "public/**/*" -c "${MAKE} --no-print-directory pollen && ${MAKE} --no-print-directory local"; \
+	else \
+		echo "Unknown OS. Exiting..."; \
+	fi
+
 
 draft: serve watch
 
