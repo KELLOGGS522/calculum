@@ -89,19 +89,19 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
 ◊ol[#:class "long-list"]{
     ◊problem-with-leetcode["oddgnome" "Odd Gnome" "1.6"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/fizz-buzz/description/" "Fizz Buzz" "Easy"]{Problème similaire sur Leetcode.}
+            ◊leetcode-problem["https://leetcode.com/problems/missing-number/description/" "Missing Number" "Easy"]{Problème similaire sur Leetcode.}
         )
     ]{Trouvez le roi dans chaque groupe de gnomes en identifiant l’unique gnome qui ne respecte pas l’ordre strictement croissant de leurs identifiants.}
 
     ◊problem-with-leetcode["conformity" "Conformity" "1.7"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/fizz-buzz/description/" "Fizz Buzz" "Easy"]{Problème similaire sur Leetcode.}
+            ◊leetcode-problem["https://leetcode.com/problems/top-k-frequent-elements/description/" "Top K Frequent Elements" "Medium"]{Problème similaire sur Leetcode.}
         )
     ]{Calculez le nombre d’étudiants ayant choisi la combinaison de cours la plus populaire parmi toutes les combinaisons sélectionnées par les étudiants.}
 
     ◊problem-with-leetcode["deduplicatingfiles" "Deduplicating Files" "3.8"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/combinations/description/" "Combinations" "Medium"]{Problème plus facile sur LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/contains-duplicate/description/" "Contains Duplicate" "Easy"]{Problème plus facile sur LeetCode.}
         )
     ]{Identifiez les fichiers en double en utilisant une fonction de hachage pour détecter les doublons potentiels et réduire le nombre de comparaisons directes entre fichiers.}
 
