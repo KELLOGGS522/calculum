@@ -107,14 +107,14 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
 
     ◊problem-with-leetcode["teque" "Teque" "4.3"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/rotate-image/description/" "Rotate Image" "Medium"]{Problème similaire on LeetCode.}
-            ◊leetcode-problem["https://leetcode.com/problems/flipping-an-image/description/" "Flipping an Image" "Easy"]{Problème plus facile sur LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/design-circular-deque/description/" "Design Circular Deque" "Medium"]{Problème similaire on LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/design-circular-queue/description/" "Design Circular Queue" "Medium"]{Problème similaire on LeetCode.}
         )
     ]{Gérez une nouvelle structure de données appelée "teque" qui permet d’insérer des éléments à l’avant, à l’arrière ou au milieu, et d’accéder rapidement aux éléments par index.}
 
     ◊problem-with-leetcode["babynames" "Baby Names" "5.6"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/spiral-matrix-ii/description/" "Spiral Matrix II" "Medium"]{Problème plus facile sur LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/find-median-from-data-stream/description/" "Find Median From Data Stream" "Hard"]{Problème Similaire du LeetCode}
         )
     ]{Gérez une liste de prénoms avec insertion, suppression et recherche efficaces..}
 }
