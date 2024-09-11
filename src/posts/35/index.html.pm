@@ -3,7 +3,7 @@
 ◊define-meta[uuid]{bf8c76d2-5aa9-4464-90e9-de9019e576a6} 
 ◊define-meta[title]{Rencontre #32: Introduction Automne 2024}
 ◊define-meta[date]{2024-09-04T18:00:00-05:00}
-◊define-meta[summary]{Introduction à la rencontre d’hiver 2024.}
+◊define-meta[summary]{Introduction à la rencontre d’automne 2024.}
 ◊define-meta[author]{Guillaume Tardif et Samuel Maltais}
 
 Les problèmes de cette semaine ne nécessitent aucune connaissance préalable, à l’exception de celles de la programmation de base. 
