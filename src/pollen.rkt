@@ -188,3 +188,13 @@
 (define (root . contents)
    `(@ ,@(decode-elements contents
           #:txexpr-elements-proc decode-paragraphs-only)))
+
+
+;; Define the code macro using `define-tag-function`
+(provide code)
+(define (code language . contents)
+  ;; Combine contents into a single string separated by newlines
+  (define code-content (string-join contents "\n"))
+  ;; Generate HTML markup for the code block
+  `(pre ((class ,(string-append "language-" language)))
+        (code ,code-content)))

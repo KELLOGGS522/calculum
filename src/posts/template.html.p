@@ -9,6 +9,9 @@
             ◊link[#:rel "stylesheet" #:href "/style.css"]
             ◊link[#:rel "canonical" #:href (full-url here)]
             ◊meta[#:name "viewport" #:content "width=device-width, initial-scale=1"]
+            ◊link[#:rel "stylesheet" #:href "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"]
+            ◊script[#:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"]
+            ◊script{hljs.highlightAll();} ; Inline script to initialize highlight.js
         }
         ◊body{
             ◊nav[#:class "post-nav"]{
