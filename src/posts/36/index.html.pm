@@ -113,7 +113,7 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
 
     ◊problem-with-leetcode["babynames" "Baby Names" "5.6"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/spiral-matrix-ii/description/" "Spiral Matrix II" "Medium"]{Problème plus facile sur LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/find-median-from-data-stream/description/" "Find Median From Data Stream" "Hard"]{Problème Similaire du LeetCode}
         )
     ]{Gérez une liste de prénoms avec insertion, suppression et recherche efficaces..}
 }
