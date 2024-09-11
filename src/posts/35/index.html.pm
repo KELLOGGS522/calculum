@@ -1,13 +1,14 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 ◊define-meta[uuid]{bf8c76d2-5aa9-4464-90e9-de9019e576a6} 
-◊define-meta[title]{Rencontre #32: Introduction Hiver 2024}
+◊define-meta[title]{Rencontre #32: Introduction Automne 2024}
 ◊define-meta[date]{2024-09-04T18:00:00-05:00}
 ◊define-meta[summary]{Introduction à la rencontre d’hiver 2024.}
 ◊define-meta[author]{Guillaume Tardif et Samuel Maltais}
 
-Les problèmes de cette semaine font appel à des structures ◊out-link["https://dahadaller.github.io/blog/2020/05/10/stacks-queues-heaps-and-hash-tables-in-python/"]{de pile, de file et de file de priorité}.
-L’utilisation de ces structures est soit demandée explicitement dans l’énoncé des problèmes, soit implicite dans l’algorithme qui permet de les résoudre.
+Les problèmes de cette semaine ne nécessitent aucune connaissance préalable, à l’exception de celles de la programmation de base. 
+Vous remarquerez que chaque problème Kattis est associé à un ou plusieurs problèmes LeetCode, similaires ou plus faciles, afin de fournir 
+une méthode d’apprentissage lorsque vous êtes bloqué sur le problème Kattis.
 
 ◊link-h2["problems"]{Problèmes}
 
