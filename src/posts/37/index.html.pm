@@ -1,16 +1,15 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
-◊define-meta[uuid]{bf8c76d2-5aa9-4464-90e9-de9019e576a6} 
-◊define-meta[title]{Rencontre #33: Arrays, Hachage et Piles}
-◊define-meta[date]{2024-09-11T18:00:00-05:00}
-◊define-meta[summary]{Continuation des problèmes d’array et introduction au Hachage (hashing) et Piles (stacks)}
+◊define-meta[uuid]{eff4a637-d17e-4e1a-a43a-6e8e9a8d9df8} 
+◊define-meta[title]{Rencontre #34: Piles et Files}
+◊define-meta[date]{2024-09-18T18:00:00-05:00}
+◊define-meta[summary]{Continuation des problèmes de Piles (stacks) et introduction au Files (queues)}
 ◊define-meta[author]{Guillaume Tardif et Samuel Maltais}
 
-Lors de cette rencontre, nous poursuivrons notre exploration des problèmes liés aux arrays en introduisant deux concepts 
-fondamentaux en programmation compétitive : le hachage et les piles. Ces outils puissants vous permettront de résoudre une 
-variété de problèmes plus efficacement, en manipulant et en organisant les données d’une manière qui simplifie les calculs 
-et améliore les performances. Nous explorerons les bases de ces structures, leur utilité, et comment les utiliser dans des 
-contextes pratiques à l’aide de Python.
+Lors de cette rencontre, nous poursuivrons notre exploration des piles (stacks), une structure de données essentielle pour de 
+nombreux algorithmes. Ensuite, nous débuterons notre apprentissage des files (queues), qui suivent un principe d’organisation 
+différent mais tout aussi fondamental. Préparez-vous à découvrir comment utiliser ces structures pour résoudre efficacement des 
+problèmes en programmation compétitive !
 
 ◊link-h2["stacks"]{Introduction aux Piles (Stacks)}
 
@@ -34,17 +33,40 @@ où vous ne pouvez retirer que celle du dessus.
                     stack.append(2)  # Ajouter 2 à la pile
                     print(stack.pop())  # Retirer le dernier élément (2) et l’afficher}
             }
+        }
+    }
+}
+
+◊link-h2["queues"]{Introduction aux Files (Queues)}
+
+Une file (queue) est une structure de données qui suit le principe du "First In, First Out" (FIFO), où le premier élément ajouté 
+est le premier à être retiré, comme une file d’attente dans un magasin.
+
+◊ul{
+    ◊li{◊strong{Utilisation des files :}  Les files sont utiles dans des situations où l’ordre d’entrée doit être respecté, comme la 
+    gestion des tâches dans les systèmes d’exploitation, le traitement des demandes de serveur, ou dans certains algorithmes de parcours
+     de graphe (comme le parcours en largeur, Breadth-First Search).
+    }
+    ◊li{◊strong{Classes et méthodes Python utiles pour les files :}
+        ◊ul{
             ◊li{
-                Module collections.deque : Pour une pile plus performante, utilisez deque du module collections, qui est 
-                optimisé pour les ajouts et retraits aux extrémités.
-                ◊code["python3"]{
+                Module collections.deque : En Python, une file peut être efficacement implémentée avec deque pour ajouter (append()) et retirer
+                 (popleft()) des éléments. deque est particulièrement performant pour les opérations d’insertion et de suppression aux deux extrémités,
+                  ce qui en fait un choix idéal pour implémenter une file.
+                ◊code["python3"]{    
                     from collections import deque
-                    stack = deque()
-                    stack.append(1)
-                    stack.append(2)
-                    print(stack.pop())  # Retirer et afficher le dernier élément (2)}
+                    queue = deque()
+                    queue.append(1)  # Ajouter 1 à la fin de la file
+                    queue.appendleft(2)  # Ajouter 2 au début de la file
+                    print(queue.popleft())  # Retirer et afficher le premier élément (2)
+                    print(queue.pop()) # Retirer et afficher le dernier élément (1)}
             }
         }
+    }
+    ◊li{◊strong{Listes Chaînées et Files :} Bien que les listes chaînées ne soient pas nécessaires pour implémenter une file en Python, elles peuvent être
+     utilisées pour comprendre les concepts sous-jacents des structures de données. Dans des langages de bas niveau ou des environnements à contraintes de
+      mémoire, implémenter une file avec une liste chaînée peut être pertinent pour optimiser l’espace et les opérations d’insertion/suppression. Cependant,
+       dans la plupart des cas pratiques en Python, l’utilisation de deque ou queue.Queue est plus simple et plus efficace.
     }
 }
 
