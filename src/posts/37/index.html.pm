@@ -76,7 +76,7 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
 
 
 ◊ol[#:class "long-list"]{
-    ◊problem-with-leetcode["delimeitersoup" "Delimiter Soup" "1.9"
+    ◊problem-with-leetcode["delimitersoup" "Delimiter Soup" "1.9"
 
         (list
             ◊leetcode-problem["https://leetcode.com/problems/missing-number/description/" "Missing Number" "Easy"]{Problème similaire sur Leetcode.}
