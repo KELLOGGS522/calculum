@@ -57,25 +57,25 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
     ◊problem-with-leetcode["delimeitersoup" "Delimiter Soup" "1.9"
 
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/missing-number/description/" "Missing Number" "Easy"]{Problème similaire sur Leetcode.}
+            ◊leetcode-problem["https://leetcode.com/problems/valid-parentheses/description/" "Valid Parentheses" "Easy"]{Un classique de Leetcode.}
         )
     ]{Validez une chaîne de caractères composée de parenthèses, crochets et accolades en détectant la première erreur de délimiteur ou en confirmant l’absence d’erreurs.}
 
     ◊problem-with-leetcode["throwns" "Game of Throwns" "2.6"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/top-k-frequent-elements/description/" "Top K Frequent Elements" "Medium"]{Problème similaire sur Leetcode.}
+            ◊leetcode-problem["https://leetcode.com/problems/circular-array-loop/description/" "Circular Array Loop" "Medium"]{Problème similaire sur Leetcode.}
         )
-    ]{Déterminez quel enfant finit avec l’œuf après une série de lancers et d’annulations, selon les instructions données par Daenerys.}
+    ]{Déterminez quel enfant finit avec l’œuf après une serie de lancers et d’annulations, selon les instructions données par Daenerys.}
 
     ◊problem-with-leetcode["restaurant" "Working at the Restaurant" "4.1"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/contains-duplicate/description/" "Contains Duplicate" "Easy"]{Problème plus facile sur LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/design-a-stack-with-increment-operation/description/" "Design a stack with increment operation" "Medium"]{Problème plus facile sur LeetCode.}
         )
     ]{Simulez le dépôt et la prise d’assiettes sur deux piles pour les passer au lave-vaisselle dans l’ordre correct, en respectant les commandes reçues et en optimisant les mouvements.}
 
     ◊problem-with-leetcode["joinstrings" "Join Strings" "5.5"
         (list
-            ◊leetcode-problem["https://leetcode.com/problems/design-front-middle-back-queue/description/" " Design Front Middle Back Queue" "Medium"]{Problème similaire on LeetCode.}
+            ◊leetcode-problem["https://leetcode.com/problems/merge-intervals/description/" " Merge Intervals" "Medium"]{Problème similaire on LeetCode.}
         )
     ]{Concaténez des chaînes de caractères en suivant une série d’opérations, et affichez la chaîne finale qui reste après avoir exécuté toutes les opérations.}
 }
