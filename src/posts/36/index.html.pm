@@ -28,7 +28,7 @@ une table de hachage, ce qui permet un accès rapide aux données.
             ◊li{
                 Dictionnaires (dict) : En Python, un dictionnaire est une implémentation directe de la table de hachage. 
                 Vous pouvez l’utiliser pour stocker des paires clé-valeur.
-                ◊code["python3"]{    
+                ◊code["python"]{    
                     d = {}  # Créer un dictionnaire vide
                     d["apple"] = 3  # Ajouter une clé "apple" avec la valeur 3
                     print(d.get("apple", 0))  # Accéder à la valeur associée à "apple"}
@@ -36,7 +36,7 @@ une table de hachage, ce qui permet un accès rapide aux données.
             ◊li{
                 Ensembles (set) : Utilisez les ensembles pour stocker des éléments uniques et effectuer des opérations comme 
                 l’union, l’intersection, et la différence.
-                ◊code["python3"]{
+                ◊code["python"]{
                     s = set()  # Créer un ensemble vide
                     s.add(1)  # Ajouter l’élément 1 à l’ensemble
                     print(1 in s)  # Vérifier si 1 est dans l’ensemble}
@@ -61,7 +61,7 @@ où vous ne pouvez retirer que celle du dessus.
             ◊li{
                 Listes (list) : En Python, vous pouvez utiliser une liste comme pile en utilisant les méthodes append() 
                 pour ajouter un élément et pop() pour retirer le dernier élément.
-                ◊code["python3"]{    
+                ◊code["python"]{    
                     stack = []  # Créer une pile vide
                     stack.append(1)  # Ajouter 1 à la pile
                     stack.append(2)  # Ajouter 2 à la pile
@@ -70,7 +70,7 @@ où vous ne pouvez retirer que celle du dessus.
             ◊li{
                 Module collections.deque : Pour une pile plus performante, utilisez deque du module collections, qui est 
                 optimisé pour les ajouts et retraits aux extrémités.
-                ◊code["python3"]{
+                ◊code["python"]{
                     from collections import deque
                     stack = deque()
                     stack.append(1)
