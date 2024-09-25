@@ -27,7 +27,7 @@ où vous ne pouvez retirer que celle du dessus.
             ◊li{
                 Listes (list) : En Python, vous pouvez utiliser une liste comme pile en utilisant les méthodes append() 
                 pour ajouter un élément et pop() pour retirer le dernier élément.
-                ◊code["python3"]{    
+                ◊code["python"]{    
                     stack = []  # Créer une pile vide
                     stack.append(1)  # Ajouter 1 à la pile
                     stack.append(2)  # Ajouter 2 à la pile
@@ -53,7 +53,7 @@ est le premier à être retiré, comme une file d’attente dans un magasin.
                 Module collections.deque : En Python, une file peut être efficacement implémentée avec deque pour ajouter (append()) et retirer
                  (popleft()) des éléments. deque est particulièrement performant pour les opérations d’insertion et de suppression aux deux extrémités,
                   ce qui en fait un choix idéal pour implémenter une file.
-                ◊code["python3"]{    
+                ◊code["python"]{    
                     from collections import deque
                     queue = deque()
                     queue.append(1)  # Ajouter 1 à la fin de la file
@@ -76,7 +76,7 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
 
 
 ◊ol[#:class "long-list"]{
-    ◊problem-with-leetcode["delimeitersoup" "Delimiter Soup" "1.9"
+    ◊problem-with-leetcode["delimitersoup" "Delimiter Soup" "1.9"
 
         (list
             ◊leetcode-problem["https://leetcode.com/problems/valid-parentheses/description/" "Valid Parentheses" "Easy"]{Un classique de Leetcode.}
