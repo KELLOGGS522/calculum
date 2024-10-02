@@ -1,7 +1,7 @@
 #lang pollen
 ◊; vim: set spelllang=fr:
 ◊define-meta[uuid]{eff4a637-e23e-4e1a-a43a-9e8e9a8d9df8} 
-◊define-meta[title]{Rencontre #38: Two Pointor}
+◊define-meta[title]{Rencontre #35: Two Pointer}
 ◊define-meta[date]{2024-09-25T18:00:00-05:00}
 ◊define-meta[summary]{Problemes de deux pointeurs}
 ◊define-meta[author]{Guillaume Tardif et Samuel Maltais}
@@ -38,7 +38,7 @@ Le nombre à côté de chaque problème indique son niveau de difficulté selon 
         )
     ]{Trouvez une sous sequence.}
 
-    ◊problem-with-leetcode["sound" "Sound" "4.2"
+    ◊problem-with-leetcode["sound" "The Sound of Silence" "4.2"
         (list
             ◊leetcode-problem["https://neetcode.io/problems/trapping-rain-water" " Merge Intervals" "Hard"]{Problème similaire on NeetCode.}
         )
